@@ -1,8 +1,24 @@
 aid: md-ally
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/md-ally.png
 name: Md Ally
-description: Md Ally is a company surfaced as a portfolio company of general-catalyst, techstars and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: MD Ally is a New York-based digital health company that integrates telehealth into the 911
+  emergency response system. Its platform lets emergency dispatchers route low-acuity, non-emergency
+  callers to a virtual care tier, connecting patients with telehealth clinicians, in-network resources,
+  and social services instead of dispatching EMS or defaulting to an emergency-room visit. MD Ally works
+  with public safety agencies and payers to expand traditional two-tier dispatch models, reduce
+  unnecessary ambulance transports and ER visits, and improve patient navigation. Backed by General
+  Catalyst and Techstars.
 url: https://raw.githubusercontent.com/api-evangelist/md-ally/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Healthcare
+- Telehealth
+- Digital Health
+- Emergency Services
+- Public Safety
+- Compliance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +45,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: TrustCenter
+  url: security/md-ally-trust-center.yml
+- type: DomainSecurity
+  url: security/md-ally-domain-security.yml
+- type: Compliance
+  url: https://mdally.com/security/
+- type: PrivacyPolicy
+  url: https://mdally.com/privacy-terms/
+- type: TermsOfService
+  url: https://mdally.com/privacy-terms/
+- type: Support
+  url: https://mdally.com/contact-us/
+- type: HelpCenter
+  url: https://mdally.com/faqs/
+- type: Login
+  url: https://allynet.mdally.com/
 - type: Website
   url: https://mdally.com/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
