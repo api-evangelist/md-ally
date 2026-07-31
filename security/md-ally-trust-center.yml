@@ -1,0 +1,14 @@
+generated: '2026-07-20'
+method: searched
+probe: true
+source: https://mdally.com/security/
+url: https://mdally.com/security/
+certifications:
+- SOC 2
+- HIPAA
+evidence:
+- source: https://mdally.com/security/
+  keywords:
+  - soc 2
+  - soc2
+  - hipaa
